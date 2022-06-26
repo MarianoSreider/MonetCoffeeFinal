@@ -1,0 +1,322 @@
+@media screen and (max-width: 992px) {
+    .nav-link {
+        font-size: 1rem;
+        padding: .7rem 1rem;
+    }
+
+    .bg-transparent {
+        background-color: black !important;
+        z-index: 1;
+    }
+    .logo {
+        background-image: url(./Pictures/celularlogo.png);
+        background-repeat: no-repeat;
+        left: 0.3rem;
+    }
+    .nosotros-img {
+        margin: 5% 5% 5% 5%;
+        width: 45%;
+    }
+    
+    .nosotros-texto {
+        margin: 5% 5% 5% 0%;
+        text-align: center;
+        width: 55%;
+    }
+    
+    .nosotros-texto p {
+        font-size: 0.9rem;
+    }
+    .menuu {
+        height: 35rem;
+    }
+    
+    .menudetalle {
+        text-align: center;
+        padding: 1%;
+        p {
+           font-size: 1rem;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .home_nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    
+    .home_nosotros-img img {
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    .home_nosotros-texto {
+        font-weight: 100;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+}
+    
+    .home_productos{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+    
+    .home_productos-texto {
+        font-weight: 100;
+        width: 100%;    
+    }
+    video{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        float: none;
+    }
+}
+}
+
+
+@media screen and (max-width: 576px) {
+
+/* Media Screen for Index */
+
+    .portada {
+        height: 25rem;
+            
+        .boton_menu {
+            top: 15rem;
+            background-color: $orange;
+            width: 8rem;
+    
+        a {
+           font-size: 1rem;
+        }
+        }
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+        padding: .7rem 1rem;
+    }
+
+    .bg-transparent {
+        background-color: black !important;
+        z-index: 1;
+    }
+    .logo {
+        background-image: url(../Pictures/celularlogo.png);
+        background-repeat: no-repeat;
+        left: 0.3rem;
+    }
+    .titulo{
+        font-size: 1.5rem;
+        top: 10rem;
+    }
+    .home_nosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        .home_nosotros-texto {
+             width: 100%;
+             margin: 4% 5% 7% 5%;
+             font-weight: 100;
+            
+        h2 {
+             font-size: 1.2rem;
+        }
+    
+        p {
+             font-size: 0.8rem;
+        }
+        a {
+            font-size: 0.8rem;
+            width: 8rem;
+        }
+    }
+    .home_nosotros-img{
+            img{
+                width: 60%;
+                margin-left: 25%;
+                margin-top: 10%;
+                }
+    }
+    }
+    
+    .home_productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+
+        .home_productos-texto {
+        width: 100%;
+        margin: 4% 5% 7% 5%;
+        font-weight: 100;
+    
+        h2 {
+            font-size: 1.2rem;
+        }
+    
+        p {
+        font-size: 0.8rem;
+        }
+        a {
+            font-size: 0.8rem;
+            width: 8rem;
+        }
+    }
+    video{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        float: none;
+    }
+    }
+    
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    
+    img {
+        margin: 0.5rem;
+    }
+    
+        .footer_coffee {
+            justify-self: center;
+
+        p {
+            font-weight: 1 00;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+        }
+        .footer_logo {
+        justify-self: center;
+        margin: 1rem 0rem 0rem 0rem;
+        }
+    }
+
+    .portada_Productos {
+    height: 25rem
+    }
+    .productos_texto {
+    margin: 5% 20% 5% 20%;
+    font-size: 1.2rem;
+    
+        p {
+        font-size: 0.8rem;
+        }
+    }
+    .contenedor_productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-areas: 
+    "c"
+    "ab"
+    "d"
+    "ef"
+    "g" 
+    "gh";
+    justify-items: center;
+     h2{
+        font-size: 1.2rem;
+       }
+     p {
+        font-size: 0.8rem;
+        }
+
+     img {
+        width: 100%;
+        }
+
+    .ab{
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: 0%; 
+    }
+    .ef{
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: 0%;
+    }
+
+    .gh{
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    top: 0%;
+    }
+    }
+    .portada_Menu{
+        height: 25rem;
+    }
+
+    .menuu {
+        height: 20rem;
+    }
+    .menu_lista {
+        .menudetalle {
+            height: 90%;
+            width: 90%;
+            margin-top: 4rem;
+            padding: 0.1rem;
+              
+    
+            &:hover{
+                transform: scale(1.1,1.1);
+            }
+            h2{
+                font-size: 18px;
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+    .portada_Nosotros {
+        height: 25rem;
+    }
+    
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        .nosotros-img {
+        width: 70%;
+        align-self: center;
+        margin: 10%;
+        }
+    
+        .nosotros-texto {
+        text-align: center;
+        width: 90%;
+        align-self: center;
+        margin: 5%;
+        p {
+            font-size: 1rem;
+        }
+    }
+    }
+    .portada_Contacto{
+        height: 25rem;
+    }
+    
+    .nombreapellido input{
+        width: 80%;
+        margin: 10px;  
+    }
+    
+}
